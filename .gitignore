@@ -216,3 +216,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Segredos
+.env
+*.key
+
+# Dados
+sentiment-radar/data/*.csv
+sentiment-radar/data/*.json
+
+# Notebooks - checkpoints
+.ipynb_checkpoints/
+
+# Modelos descarregados localmente (podem ser pesados)
+*.bin
+*.safetensors
+git add .gitignore && git commit -m "Expand gitignore"
