@@ -74,6 +74,3 @@ import sys
 sys.path.append("/content/drive/MyDrive/llm-finance-lab/sentiment-radar/src")
 from pipeline import carregar_modelo, coletar_e_classificar, guardar_historico
 
-modelo = carregar_modelo()
-df_hoje = coletar_e_classificar(tickers, modelo)
-df_historico = guardar_historico(df_hoje, CAMINHO_HISTORICO)
